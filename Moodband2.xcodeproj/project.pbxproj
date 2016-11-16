@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B30A49A11DDC190300D7796B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A49A01DDC190300D7796B /* AppDelegate.swift */; };
+		B30A49A31DDC190300D7796B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A49A21DDC190300D7796B /* ViewController.swift */; };
+		B30A49A61DDC190300D7796B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30A49A41DDC190300D7796B /* Main.storyboard */; };
+		B30A49A91DDC190300D7796B /* Moodband2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B30A49A71DDC190300D7796B /* Moodband2.xcdatamodeld */; };
+		B30A49AB1DDC190300D7796B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30A49AA1DDC190300D7796B /* Assets.xcassets */; };
+		B30A49AE1DDC190300D7796B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30A49AC1DDC190300D7796B /* LaunchScreen.storyboard */; };
+		B30A49B91DDC190300D7796B /* Moodband2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A49B81DDC190300D7796B /* Moodband2Tests.swift */; };
+		B30A49C41DDC190300D7796B /* Moodband2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A49C31DDC190300D7796B /* Moodband2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B30A49B51DDC190300D7796B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B30A49951DDC190300D7796B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B30A499C1DDC190300D7796B;
+			remoteInfo = Moodband2;
+		};
+		B30A49C01DDC190300D7796B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B30A49951DDC190300D7796B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B30A499C1DDC190300D7796B;
+			remoteInfo = Moodband2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B30A499D1DDC190300D7796B /* Moodband2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodband2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A49A01DDC190300D7796B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B30A49A21DDC190300D7796B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B30A49A51DDC190300D7796B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B30A49A81DDC190300D7796B /* Moodband2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moodband2.xcdatamodel; sourceTree = "<group>"; };
+		B30A49AA1DDC190300D7796B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B30A49AD1DDC190300D7796B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B30A49AF1DDC190300D7796B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30A49B41DDC190300D7796B /* Moodband2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Moodband2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A49B81DDC190300D7796B /* Moodband2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moodband2Tests.swift; sourceTree = "<group>"; };
+		B30A49BA1DDC190300D7796B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30A49BF1DDC190300D7796B /* Moodband2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Moodband2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A49C31DDC190300D7796B /* Moodband2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moodband2UITests.swift; sourceTree = "<group>"; };
+		B30A49C51DDC190300D7796B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B30A499A1DDC190300D7796B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30A49B11DDC190300D7796B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30A49BC1DDC190300D7796B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B30A49941DDC190300D7796B = {
+			isa = PBXGroup;
+			children = (
+				B30A499F1DDC190300D7796B /* Moodband2 */,
+				B30A49B71DDC190300D7796B /* Moodband2Tests */,
+				B30A49C21DDC190300D7796B /* Moodband2UITests */,
+				B30A499E1DDC190300D7796B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B30A499E1DDC190300D7796B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B30A499D1DDC190300D7796B /* Moodband2.app */,
+				B30A49B41DDC190300D7796B /* Moodband2Tests.xctest */,
+				B30A49BF1DDC190300D7796B /* Moodband2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B30A499F1DDC190300D7796B /* Moodband2 */ = {
+			isa = PBXGroup;
+			children = (
+				B30A49A01DDC190300D7796B /* AppDelegate.swift */,
+				B30A49A21DDC190300D7796B /* ViewController.swift */,
+				B30A49A41DDC190300D7796B /* Main.storyboard */,
+				B30A49AA1DDC190300D7796B /* Assets.xcassets */,
+				B30A49AC1DDC190300D7796B /* LaunchScreen.storyboard */,
+				B30A49AF1DDC190300D7796B /* Info.plist */,
+				B30A49A71DDC190300D7796B /* Moodband2.xcdatamodeld */,
+			);
+			path = Moodband2;
+			sourceTree = "<group>";
+		};
+		B30A49B71DDC190300D7796B /* Moodband2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B30A49B81DDC190300D7796B /* Moodband2Tests.swift */,
+				B30A49BA1DDC190300D7796B /* Info.plist */,
+			);
+			path = Moodband2Tests;
+			sourceTree = "<group>";
+		};
+		B30A49C21DDC190300D7796B /* Moodband2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B30A49C31DDC190300D7796B /* Moodband2UITests.swift */,
+				B30A49C51DDC190300D7796B /* Info.plist */,
+			);
+			path = Moodband2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B30A499C1DDC190300D7796B /* Moodband2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30A49C81DDC190300D7796B /* Build configuration list for PBXNativeTarget "Moodband2" */;
+			buildPhases = (
+				B30A49991DDC190300D7796B /* Sources */,
+				B30A499A1DDC190300D7796B /* Frameworks */,
+				B30A499B1DDC190300D7796B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moodband2;
+			productName = Moodband2;
+			productReference = B30A499D1DDC190300D7796B /* Moodband2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B30A49B31DDC190300D7796B /* Moodband2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30A49CB1DDC190300D7796B /* Build configuration list for PBXNativeTarget "Moodband2Tests" */;
+			buildPhases = (
+				B30A49B01DDC190300D7796B /* Sources */,
+				B30A49B11DDC190300D7796B /* Frameworks */,
+				B30A49B21DDC190300D7796B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B30A49B61DDC190300D7796B /* PBXTargetDependency */,
+			);
+			name = Moodband2Tests;
+			productName = Moodband2Tests;
+			productReference = B30A49B41DDC190300D7796B /* Moodband2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B30A49BE1DDC190300D7796B /* Moodband2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30A49CE1DDC190300D7796B /* Build configuration list for PBXNativeTarget "Moodband2UITests" */;
+			buildPhases = (
+				B30A49BB1DDC190300D7796B /* Sources */,
+				B30A49BC1DDC190300D7796B /* Frameworks */,
+				B30A49BD1DDC190300D7796B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B30A49C11DDC190300D7796B /* PBXTargetDependency */,
+			);
+			name = Moodband2UITests;
+			productName = Moodband2UITests;
+			productReference = B30A49BF1DDC190300D7796B /* Moodband2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B30A49951DDC190300D7796B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Rebecca Krieger";
+				TargetAttributes = {
+					B30A499C1DDC190300D7796B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					B30A49B31DDC190300D7796B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B30A499C1DDC190300D7796B;
+					};
+					B30A49BE1DDC190300D7796B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B30A499C1DDC190300D7796B;
+					};
+				};
+			};
+			buildConfigurationList = B30A49981DDC190300D7796B /* Build configuration list for PBXProject "Moodband2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B30A49941DDC190300D7796B;
+			productRefGroup = B30A499E1DDC190300D7796B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B30A499C1DDC190300D7796B /* Moodband2 */,
+				B30A49B31DDC190300D7796B /* Moodband2Tests */,
+				B30A49BE1DDC190300D7796B /* Moodband2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B30A499B1DDC190300D7796B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30A49AE1DDC190300D7796B /* LaunchScreen.storyboard in Resources */,
+				B30A49AB1DDC190300D7796B /* Assets.xcassets in Resources */,
+				B30A49A61DDC190300D7796B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30A49B21DDC190300D7796B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30A49BD1DDC190300D7796B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B30A49991DDC190300D7796B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30A49A91DDC190300D7796B /* Moodband2.xcdatamodeld in Sources */,
+				B30A49A31DDC190300D7796B /* ViewController.swift in Sources */,
+				B30A49A11DDC190300D7796B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30A49B01DDC190300D7796B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30A49B91DDC190300D7796B /* Moodband2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30A49BB1DDC190300D7796B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30A49C41DDC190300D7796B /* Moodband2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B30A49B61DDC190300D7796B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B30A499C1DDC190300D7796B /* Moodband2 */;
+			targetProxy = B30A49B51DDC190300D7796B /* PBXContainerItemProxy */;
+		};
+		B30A49C11DDC190300D7796B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B30A499C1DDC190300D7796B /* Moodband2 */;
+			targetProxy = B30A49C01DDC190300D7796B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B30A49A41DDC190300D7796B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B30A49A51DDC190300D7796B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B30A49AC1DDC190300D7796B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B30A49AD1DDC190300D7796B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B30A49C61DDC190300D7796B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B30A49C71DDC190300D7796B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B30A49C91DDC190300D7796B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moodband2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rebeccakrieger.Moodband2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B30A49CA1DDC190300D7796B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moodband2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rebeccakrieger.Moodband2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B30A49CC1DDC190300D7796B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Moodband2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rebeccakrieger.Moodband2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moodband2.app/Moodband2";
+			};
+			name = Debug;
+		};
+		B30A49CD1DDC190300D7796B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Moodband2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rebeccakrieger.Moodband2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moodband2.app/Moodband2";
+			};
+			name = Release;
+		};
+		B30A49CF1DDC190300D7796B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Moodband2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rebeccakrieger.Moodband2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Moodband2;
+			};
+			name = Debug;
+		};
+		B30A49D01DDC190300D7796B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Moodband2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rebeccakrieger.Moodband2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Moodband2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B30A49981DDC190300D7796B /* Build configuration list for PBXProject "Moodband2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30A49C61DDC190300D7796B /* Debug */,
+				B30A49C71DDC190300D7796B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30A49C81DDC190300D7796B /* Build configuration list for PBXNativeTarget "Moodband2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30A49C91DDC190300D7796B /* Debug */,
+				B30A49CA1DDC190300D7796B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B30A49CB1DDC190300D7796B /* Build configuration list for PBXNativeTarget "Moodband2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30A49CC1DDC190300D7796B /* Debug */,
+				B30A49CD1DDC190300D7796B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B30A49CE1DDC190300D7796B /* Build configuration list for PBXNativeTarget "Moodband2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30A49CF1DDC190300D7796B /* Debug */,
+				B30A49D01DDC190300D7796B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B30A49A71DDC190300D7796B /* Moodband2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B30A49A81DDC190300D7796B /* Moodband2.xcdatamodel */,
+			);
+			currentVersion = B30A49A81DDC190300D7796B /* Moodband2.xcdatamodel */;
+			path = Moodband2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B30A49951DDC190300D7796B /* Project object */;
+}
